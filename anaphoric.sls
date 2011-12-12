@@ -26,7 +26,7 @@
 	  #'(let ([it test])
 	      (if it (begin a . b))))]
        [(k . else)
-	#'(syntax-violation 'k "invlaid syntax" '(k . else))])))
+	#'(syntax-violation 'k "invalid syntax" '(k . else))])))
 
  (define-syntax aunless
    (lambda (x)
